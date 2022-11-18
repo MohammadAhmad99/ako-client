@@ -2818,7 +2818,7 @@ exports.PDFViewerApplication = PDFViewerApplication;
     }
     try {
       const viewerOrigin = new URL(window.location.href).origin || "null";
-      if (HOSTED_VIEWER_ORIGINS.includes(viewerOrigin)) {
+      if (HOSTED_VIEWER_ORIGINS.includes(viewerOrigin) || true) {
         return;
       }
       const fileOrigin = new URL(file, window.location.href).origin;
