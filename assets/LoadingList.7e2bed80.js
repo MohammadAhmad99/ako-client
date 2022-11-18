@@ -1,0 +1,1 @@
+import{j as u,m as e,T as r}from"./@chakra-ui/react.4d46e3f3.js";const t=()=>u(e,{textAlign:"center",margin:"10px 0",userSelect:"none",children:u(r,{color:"gray.500",children:"\u064A\u0631\u062C\u0649 \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631 \u0644\u062D\u0638\u0629..."})});export{t as L};
